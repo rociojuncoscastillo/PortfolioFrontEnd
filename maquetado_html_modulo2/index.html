@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mi Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+
+
+    </head>
+    <body>
+<header>
+   
+        <video id="fondo"src="video3.mp4" autoplay="true" muted="true" loop="true" poster="poster.jpg"></video>
+
+
+          
+        <div width="100%">
+            <table id="logo_banner_login" border="0"  width="100%" height="auto">
+                <tr>
+                <td id="logo">
+                    <img id="logo1"src="APLogo.png" alt="Logo Argentina Programa" width="100" height="100" border="0"><br>
+                    <img id="logo2" src="ministerioLogo2.png" alt="Logo Ministerio de Desarrollo Productivo " width="100" height="100" border="0"><br>
+                    <img id="logo3"src="intiLogo.jpg" alt="Logo INTI " width="100" height="100" border="0">
+
+                </td>
+                <td id= "banner"><video id="video"src="banner.mp4" width="800" height="400" autoplay muted loop ></video></td>
+                <td id="form">
+                <main class="form-signin w-100 m-auto">
+                    <form>
+                        <h3 class="h3 mb-3 fw-normal" id="titulo_form">Ingresar</h3>
+                  
+                        <div class="form-floating">
+                            <label id="label_email"for="email">Email<br></label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                        </div>
+
+                        <div class="form-floating">
+                            <label id="label_password"for="password">Contraseña<br></label>
+                            <input type="password" class="form-control" id="password" placeholder="Ingrese su contraseña">                   
+                        </div>
+                  
+                      <div class="checkbox mb-3">
+                            <label id="_checkbox">
+                            <input id="remember"type="checkbox" value="remember-me"> <p id="remember_text">Recordar mis datos</p>
+                            </label>
+                      </div>
+
+                      <button id="button"class="w-100 btn btn-lg btn-primary" type="submit">Ingresar</button>
+                      
+                    </form>
+                </main>           
+                </td>
+                </tr>
+            </table>
+        </div>
+        <ul class="menu"> 
+			<li><a href="#acercaDe_tabla">Acerca de</a></li>
+			<li><a href="#experiencia">Experiencia</a></li>
+			<li><a href="#educacion">Educación</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+			<li><a href="#skills">Hard and Soft Skills</a></li>
+            <li><a href="#idiomas">Idiomas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+
+			
+		</ul>
+    </header>
+    
+
+        <div> 
+
+                <div>
+                    <table class="table table-" id="acercaDe_tabla" cellspacing="0" cellpadding="0" width="100%"  col-span="3" row-span="1" display="inline-block">
+                        
+                        <tr>
+                            <td id="contenedor_foto" s><img id="foto_personal" src="personal.jpg" alt="Foto personal" ></img></td>
+                            <td >
+                   
+            
+                    <p id="acercaDe_texto">Mi nombre es Rocío Juncos Castillo, tengo 22 años <br>soy estudiante de la Tecnicatura en Informática de Gestión - FICH- UNL. <br> Actualmente estoy cursando la segunda etapa de Argentina Programa </p>
+                        <button onclick="cambiar_parrafo()" class="boton_edicion">EDITAR </button>
+                
+                    
+                
+                
+                <div id="fondoBotones" class="fondoBotones" style="display: none">
+                    <input    title="edicion" id="edit-acercade" type="text" oninput="myFunction2(this.value)" placeholder="Ingrese el nuevo texto aquí" ><br></input>
+                
+            
+            <label for="file1" class="file" ><i> Reemplazar el contenido por un archivo de texto</i><br></label> 
+            <input title="inputForFile" type="file" class="file_menu" onchange="showFile(this)">
+
+                </td>
+            </div> 
+                </tr>
+                
+                </table>
+                
+
+                </div>
+            
+            
+
+
+        <div id="experiencia" class="container">  
+            <table class="table" id="experiencia_tabla">
+            <tr>
+              <td id="experiencia_titulo" class="titulos">
+                  <h2 id="exp_tit" class="titulos">EXPERIENCIA LABORAL</h2>
+                 
+              </td>
+              <td >
+                   
+            
+                <p id="experiencia_texto" class="textos"> Tallerista en Taller de Lectocomprensión de Inglés, PAMI (2021 - presente) <br> 
+                    <br>Pasantía Educativa no rentada - Banco Credicoop (2017) <br>
+                    <br>Labor Sociocomunitaria: <br> Clases ad honoren de inglés en instituciones sin fines de lucro </p>
+                    <button onclick="cambiar_parrafoExp()" class="boton_edicion">EDITAR </button>
+                
+                    
+                
+                
+                    <div id="fondoBotonesExp" class="fondoBotones" style="display: none">
+                        <input    title="edicion" id="edit-experiencia" type="text" oninput="myFunctionExp(this.value)" placeholder="Ingrese el nuevo texto aquí" ><br></input>
+                    
+                
+                <label for="fileExp" class="file" ><i> Reemplazar el contenido por un archivo de texto</i><br></label> 
+                <input title="inputForFile" type="file" class="file_menu" onchange="showFileExp(this)">
+    
+                    </td>
+                </div> 
+                    </tr>
+                    
+                    </table>
+                    
+    
+                    </div>
+                
+
+    <div id="educacion" class="container">  
+        <table class="table" id="educacion_tabla">
+        <tr>
+          <td id="educacion_titulo" class="titulos">
+              <h2>EDUCACIÓN</h2>
+             
+          </td>
+          <td >
+               
+        
+            <p id="educacion_texto"> Estudios Universitarios en curso: <b> Tecnicatura Universitaria en Informática de Gestión - FICH - UNL </b> <br><i>Porcentaje de aprobación: 47,06% <br> Promedio sin aplazos: 9.14 - Promedio con aplazos: 9.14 </i><br>
+                <br>Educación secundaria: Título obtenido: Bachiller con orientación en Economía y Administración (2017) <br> Instituto Nuestra Señora del Carmen <br><i> Abanderada Argentina - Promedio: 9.61</i><br>
+                 <br>Reconocimientos:<br> Premio Estímulo 2017 - CECIS<br>Distinción al Mayor Esfuerzo de Superación y Dedicación 2017 - Colegio de Psicopedagogos de la Provincia de Córdoba <br>
+                <br> Participaciones: <br> Concejal Estudiantil - Parlamento Estudiantil de la Ciudad de Río Cuarto (2017) 
+                <br> Centro de Estudiantes del Instituto Nuestra Señora del Carmen - <i> Puesto: Vicepresidenta</i>
+                <br> Olimpiadas de Matemática Argentina (OMA) - Provincial (2014) 
+                <br> Olimpiadas de Informática de la Provincia de Córdoba - Niveles 1 y 2 (2013)</p>
+                
+        
+        
+                <button onclick="cambiar_parrafoEd()" class="boton_edicion">EDITAR </button>
+                
+                
+                
+                <div id="fondoBotonesEd" class="fondoBotones" style="display: none">
+                    <input    title="edicion" id="edit-educacion" type="text" oninput="myFunctionEd(this.value)" placeholder="Ingrese el nuevo texto aquí" ><br></input>
+                
+            
+            <label for="fileEd" class="file" ><i> Reemplazar el contenido por un archivo de texto</i><br></label> 
+            <input title="inputForFile" type="file" class="file_menu" onchange="showFileEd(this)">
+
+                </td>
+            </div> 
+                </tr>
+                
+                </table>
+                
+
+                </div>
+
+<div id="proyectos" class="container">  
+    <table class="table" id="proyectos_tabla">
+    <tr>
+      <td id="proyectos_titulo" class="titulos">
+          <h2>PROYECTOS</h2>
+         
+      </td>
+      <td >
+       <p id="proyectos_texto" class="textos">a completar <br>
+            <br></p>
+    <button onclick="cambiar_parrafoPro()" class="boton_edicion">EDITAR </button>
+    
+            <div id="fondoBotonesPro" class="fondoBotones" style="display: none">
+                <input title="edicion" id="edit-proyectos" type="text" oninput="myFunctionPro(this.value)" placeholder="Ingrese el nuevo texto aquí" ><br></input>
+
+        <label for="filePro" class="file" ><i> Reemplazar el contenido por un archivo de texto</i><br></label> 
+        <input title="inputForFile" type="file" class="file_menu" onchange= "showFilePro(this)">
+
+            </td>
+        </div> 
+            </tr> 
+            
+            </table>
+            
+
+            </div>
+
+
+    
+<div id="skills" class="container">  
+    <table id="skills_tabla">
+    <tr>
+      <td id="skills_titulo" >
+          <h2>HARD AND <br> SOFT SKILLS</h2>      
+      </td>  
+        </div id="skills_content"> 
+        <td><img src="hard_skills.png" alt="Hard Skills" width="600" height="600"></td>
+        <td><img src="soft_skills.png" alt="Soft Skills" width="600" height="600"></td>
+    </tr>
+    </table>
+
+<div id="idiomas" class="container">  
+    <table class="table" id="idiomas_tabla">
+    <tr>
+      <td id="idiomas_titulo" class="titulos">
+          <h2>IDIOMAS</h2>
+         
+      </td>
+      <td >
+           
+    
+        <p id="idiomas_texto" class="textos">Inglés - Level C1.1 (Advanced) - Nivel X, Centro de Idiomas UNL <br>
+            <br> Premio al mejor promedio año 2016 (Promedio 9.81) - Cultural Británica de Río Cuarto</p>
+    
+    
+      <button onclick="cambiar_parrafoId()" class="boton_edicion">EDITAR </button>
+    
+      <div id="fondoBotonesId" class="fondoBotones" style="display: none">
+          <input title="edicion" id="edit-idiomas" type="text" oninput="myFunctionId(this.value)" placeholder="Ingrese el nuevo texto aquí" ><br></input>
+
+  <label for="fileId" class="file" ><i> Reemplazar el contenido por un archivo de texto </i><br></label> 
+  <input title="inputForFile" type="file" class="file_menu" onchange= "showFileId(this)">
+
+      </td>
+  </div> 
+      </tr> 
+      
+      </table>
+      
+
+      </div>
+<div class="container" id="contacto">
+    <table id="contacto_tabla" colspan="2"></table>
+    <tr>
+        <td> 
+        <tr><h3>Contacto</h3></tr>
+    </td> 
+        <td>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/roc%C3%ADo-milagros-juncos-castillo/">LinkedIn</a></li>
+            <li><a href="https://discord.com/channels/@me">Discord - rjuncoscastillo#3300</a></li>
+            <li><a href="https://twitter.com/RocioJuncos07">Twitter</a></li>
+    </ul>
+        </td>
+  
+  
+  
+  
+    
+    </td>
+   
+</div>
+<footer>
+<p>Sitio creado en 2022</p>
+</footer>
+
+<script src="scripts.js"></script>
+    </body>
+</html>
