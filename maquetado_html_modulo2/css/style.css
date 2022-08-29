@@ -1,0 +1,438 @@
+body {
+    position: relative;
+    margin: 0;
+  }
+#logo_banner_login{
+    display:inline-block;
+    border-collapse: collapse;
+    box-sizing: content-box;
+}
+
+#logo{
+    margin: 0px;
+    padding-left:150px;
+    border-collapse: separate;
+   
+}
+#logo1{
+    border-radius: 40px 20px;
+}
+#logo2{
+    border-radius: 40px 20px;
+}
+#logo3{
+    border-radius: 40px 20px;
+}
+#banner{
+    margin: 0px;
+    padding: 0%;
+}
+#video{
+    border-radius: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#titulo_form{
+    margin-left: 80%;
+    padding-left: 10%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(8, 8, 51);
+    
+}
+
+#label_email{
+    margin-left: 60%;
+    padding-left: 10%;
+    margin-right: 5%;
+
+}
+
+#email{
+    margin-left: 60%;
+    padding-left: 10%;
+    margin-right: 5%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+
+}
+#email:hover{
+    background-color: rgb(209, 202, 202);
+}
+#label_password{
+    margin-left: 60%;
+    padding-left: 10%;
+    margin-right: 5%;
+    
+
+}
+#password{
+    margin-left: 60%;
+    padding-left: 10%;
+    margin-right: 5%;
+    margin-top: 7%;
+
+}
+#password:hover{
+    background-color: rgb(209, 202, 202);
+}
+#_checkbox{
+    margin-left: 0%;
+    padding-left: 10%;
+    margin-right: 5%;
+
+}
+
+#remember{
+    margin-left: 100%;
+    padding-left: 10%;
+    margin-bottom: 0%;
+    margin-right: 5%;
+    border-color: rgb(7, 7, 72);
+    border-width: 2px;
+    color:rgb(226, 213, 213);
+    width:20x;
+    height:20px;
+
+
+}
+#remember:hover{
+    background-color:rgb(45, 43, 43);
+}
+#remember_text{
+    margin-left: 80%;
+    width: max-content;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+#button{
+    margin-left: 90%;
+    margin-top: 1%;
+    text-align:left;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    color:rgb(9, 9, 57);
+    background-color: rgb(155, 208, 233);
+    cursor: pointer;
+    
+}
+#button:hover{
+   background-color: rgb(185, 216, 236);
+
+}
+.menu{
+	list-style:none;
+	padding-left: 80px;
+	width: 100%;
+	align-items: center;
+    margin-left:0%;
+    box-sizing: content-box;
+    
+	
+}
+
+.menu li a{
+	text-decoration: none;
+	color: rgb(8, 4, 40);
+	padding: 20px;
+	display: block;
+    background-color: rgb(155, 208, 233);
+    width:150px;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+	
+}
+
+.menu li a:hover{
+	background:rgb(93, 85, 238);
+	
+}
+#acercaDe_tabla{
+    padding-top: 2%;
+    box-sizing: content-box;
+
+    
+}
+#foto_personal{
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%; 
+    padding: 0px;
+    margin-left: 60%;
+    margin-right:0px;
+    margin-top: 0px;
+    margin-bottom: 10%;
+    width:150px;
+    height:170px;
+    border:0px;
+    opacity: 1;
+    
+}
+
+#contenedor_foto{	
+   margin: 0px;
+   padding: 0px;
+   width:150px;
+   border-top-left-radius: 100%;
+   border-top-right-radius: 100%;
+   border-bottom-left-radius: 100%;
+   border-bottom-right-radius: 100%;
+}
+
+#acercaDe_tabla{
+border-collapse:collapse;
+margin-left: 10%;
+margin-right:0%;
+padding-right: 0%;
+height:150px;
+width:80%; 
+}
+#acercaDe_texto{
+    background-color: rgb(223, 223, 223);
+    padding-top: 5%;
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-left: 5%;
+    margin-left: 0%;
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight:lighter;
+    border-collapse: collapse;
+    height:100px;
+    width: 1000px;
+    border-radius: 40px 20px;
+    
+    
+}
+#edit-acercade:hover{
+background-color: rgba(186, 216, 234, 0.964);
+}
+
+#fondo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+  }
+
+  #edit_acercaDe{
+    display: none;
+  }
+  table
+                    {
+                      width:80%;
+                      margin-left: auto;
+                      margin-right: auto;    
+                    }
+                
+                                    
+                
+                    .titulo
+                    {
+                      vertical-align:top;  
+                      text-align:left;
+                      height:30px;
+                      width: 30%;
+                      padding-left: 80px;			
+                    }
+                    .titulo h2
+                    {
+                      margin:0px;			
+                      color:chocolate;
+                      padding-left: 80px;
+                    }
+                
+                    .subtitulo2
+                    {
+                      vertical-align:top;   
+                      text-align:left;
+                      height: 10px;
+                      color:peru;
+                      width: 30%;	
+                      padding-left: 80px;	
+                     
+                    }
+                    .subtitulo2 h4
+                    {
+                      margin:0px;	
+                      padding-left: 80px;	
+                    }
+                
+                    .descripcion{
+                      padding-left:10px;
+                      vertical-align:top;
+                      font-style: italic;
+                      width:80%;
+                      color:palevioletred;
+                      text-align:left;    
+                    }    
+ .fondoBotones{
+    background-color: rgba(222, 226, 228, 0.964);
+    width:600px;
+    opacity: 0.6;
+    border: 1px;
+    border-color: gray;
+ }
+
+ .container{
+    padding-top: 2%;
+    box-sizing: content-box;
+
+ }
+ 
+ .table{
+
+border-collapse:collapse;
+margin-left: 10%;
+margin-right:0%;
+padding-right: 0%;
+height:150px;
+width:80%;
+ }
+
+ #skills_tabla{
+    border-collapse:collapse;
+margin-left: 10%;
+margin-right:0%;
+padding-right: 0%;
+align-items: flex-end;
+
+
+ }
+
+ .textos{
+    background-color: rgb(223, 223, 223);
+    padding-top: 5%;
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    margin-left: 0%;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight:lighter;
+    border-collapse: collapse;
+    height:150px;
+    width: 1000px;
+    border-radius: 40px 20px;
+
+ }
+
+.titulos{
+    background-color:rgb(223, 223, 223) ;
+    opacity: 0.7;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    color:rgb(40, 37, 37);
+    width: 200px;
+}
+
+
+
+.boton_edicion{
+    background-color: rgb(197, 193, 193);
+    width: 100px;
+    height:40px;    
+    cursor:grab;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(8, 8, 50);
+    border-color:rgb(8, 8, 50) ;
+    margin-left: 85%;
+}
+.boton_edicion:hover{
+    background-color:rgb(93, 85, 238); 
+}
+
+#boton_skills{
+    background-color: rgb(197, 193, 193);
+    width: 100px;
+    height:40px;    
+    cursor:grab;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(8, 8, 50);
+    border-color:rgb(8, 8, 50) ;
+    padding-left: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    align-items: flex-end;
+    margin-left: 87%;
+       
+
+}
+
+#boton_skills:hover{
+    background-color:rgb(93, 85, 238); 
+}
+
+#skills_titulo{
+    background-color:rgb(223, 223, 223) ;
+    opacity: 0.7;
+    margin: 0%;
+    padding-right: 1%;
+    height: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    color:rgb(40, 37, 37);
+    width: 300px;
+}
+
+#contacto{
+    border-radius: 40px 20px;
+    background-color:rgb(132, 127, 228); 
+    width: 500px;
+    height: auto;
+    margin-left: 55%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
+    color:rgb(22, 22, 74);
+    font-style: normal;
+    font-weight: bolder;
+    
+}
+#educacion_texto{
+    background-color: rgb(223, 223, 223);
+    padding-top: 5%;
+    padding-bottom: 2%;
+    padding-right: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    margin-left: 0%;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight:lighter;
+    border-collapse: collapse;
+    height:350px;
+    width: 1000px;
+    border-radius: 40px 20px;
+
+}
